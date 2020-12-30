@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Testes JavaScript</title>
+</head>
+<body>
+
+    <main id="box">
+
+        <header class="boxTitle"> 
+            <h1>Cálculo de Calorias:</h1>
+        </header>
+
+        <section class="form">
+          
+                <input type="number" name="peso" id="peso" placeholder="Digite seu peso (em Kg) ...">
+                
+                <input type="number" name="altura" id="altura" placeholder="Digite sua altura (em Cm) ...">
+
+                <input type="number" name="idade" id="idade" placeholder="Digite sua idade ...">
+
+                <select name="sexo" id="sexo" >
+                    <option value="null" selected>Escolha seu genero</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                </select>
+
+                <br>
+                
+                <button onclick="calcular()" >
+                    Calcular
+                </button>
+            
+        </section>
+        
+        <div id="result">
+            
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
